@@ -1,14 +1,14 @@
 public class NpR {
 
     public static int numerator(int num){
-        if(num==1){
+        if(num==0){
             return 1;
         }
         int up = num*numerator(num-1);
         return up;
     }
     public static int dinominator(int den){
-        if(den==1){
+        if(den==0){
             return 1;
         }
         int dn = den*dinominator(den-1);
